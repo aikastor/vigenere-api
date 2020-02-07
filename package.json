@@ -1,0 +1,20 @@
+{
+  "name": "vigenere",
+  "version": "0.0.1",
+  "description": "Vigenere decoder and encoder api",
+  "main": "index.js",
+  "author": "aikastor",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "caesar-salad": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
